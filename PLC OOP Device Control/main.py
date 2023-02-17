@@ -2,7 +2,7 @@ from process import Process
 from globalDevices import deviceState
 
 
-
+# an initial configuration
 eConfig = ["a", "b", "b", "a", "c", "b"]
 
 # initializing the process
