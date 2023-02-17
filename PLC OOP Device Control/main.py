@@ -8,25 +8,25 @@ eConfig = ["a", "b", "b", "a", "c", "b"]
 # initializing the process
 process = Process(eConfig, len(eConfig))
 
-print(process.readProps())
+process.readProps()
 
-print(process.setCommands({        
+process.setCommands({        
         "enable": True,
         "reset" : False,
         "hasError": False,
         "isReady" : False,
         "errorId" : None,
         "initialized": True,
-        }))
+        })
 
-print(process.setCommands({        
+process.setCommands({        
         "enable": True,
         "reset" : False,
         "hasError": True,
         "isReady" : False,
         "errorId" : 444,
         "initialized": True,
-        }, 4))
+        }, 4)
 
 process.addDevice(["A", "B", "C"])
-print(process.readProps())
+process.readProps()
