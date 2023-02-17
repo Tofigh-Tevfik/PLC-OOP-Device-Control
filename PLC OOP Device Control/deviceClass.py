@@ -16,7 +16,7 @@
 # }
 
 
-# first child class (DeviceA)
+# first class (DeviceA)
 class DeviceA():
     def __init__(self, dictionary, index):
         self.state = {
@@ -26,7 +26,7 @@ class DeviceA():
             "props": dictionary
         }
 
-# second child class (DeviceB)
+# second class (DeviceB)
 class DeviceB():
     def __init__(self, dictionary, index):
         self.state = {
@@ -36,7 +36,7 @@ class DeviceB():
             "props": dictionary
         }
 
-# third child class (DeviceC)
+# third class (DeviceC)
 class DeviceC():
     def __init__(self, dictionary, index):
         self.state = {
